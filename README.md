@@ -1,4 +1,6 @@
-##Capstone-Project 1
+##SALES PERFORMANCE ANALYSIS OF TEMMYTEE RETAIL STORE
+
+Project Overview: This data analysis project aims to generate insights into the Sales Performance of TemmyTee Retail Store over the past year. By analysing the various parameters in the data received we seek to explore Sales data to uncover key insights such as Top-selling products, regional performance and monthly sales trend. The goal is to produce an interactive Power BI dashboard that highlight these findings.
 
 Expected Outcomes
 
