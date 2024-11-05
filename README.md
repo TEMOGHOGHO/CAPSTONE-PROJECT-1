@@ -1,4 +1,5 @@
 ##Capstone-Project 1
+
 Expected Outcomes
 
 Tools
@@ -9,7 +10,8 @@ SQL Analysis on Sales Data
 
 Visualising Sales Data with Power BI
 
-Capstone Project 2
+##Capstone Project 2
+
 Objective
 
 Tools Used
