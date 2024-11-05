@@ -3,13 +3,21 @@
 Project Overview: This data analysis project aims to generate insights into the Sales Performance of TemmyTee Retail Store over the past year. By analysing the various parameters in the data received, we seek to explore Sales data to uncover key insights such as Top-selling products, Regional performance and Monthly sales trend. The goal is to produce an interactive Power BI dashboard that highlight these findings.
 
 TABLE OF CONTENT
+
 DATA SOURCES
+
 INSTALLATIONS
+
 USAGE
+
 PROJECT STRUCTURE
+
 ANALYSIS
+
 RESULTS
+
 RECOMMENDATION
+
 CONTRIBUTION
 
 Expected Outcomes
