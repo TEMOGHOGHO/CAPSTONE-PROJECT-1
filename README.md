@@ -21,60 +21,9 @@ At the initial stage of data cleaning and preparation, the following actions wer
 Some questions were answered on the data as follows;
 -  What is the sales overview?
 -  What are the Top-performing products?
-- What is the regional breakdown?
+-  What is the regional breakdown?
 
-
-PROJECT STRUCTURE
-
-ANALYSIS
-
-RESULTS
-
-RECOMMENDATION
-
-CONTRIBUTION
-
-Expected Outcomes
-
-Tools
-
-Data Understanding and Observations
-
-SQL Analysis on Sales Data
-
-Visualising Sales Data with Power BI
-
-##Capstone Project 2
-
-Objective
-
-Tools Used
-
-Expected Outcomes
-
-pivot Presentation
-
-Visualising customer Data with Power BI
-
-Sales Performance Analysis
-Project Overview: Analyzing Sales Data
-Objective:
-To analyze sales data to uncover insights that support data-driven decision-making, enhance sales strategies, and optimize inventory management.
-
-Expected Outcomes:
-Clear understanding of sales performance.
-Informed decisions on marketing and inventory.
-Enhanced profitability through targeted strategies.
-Tools:
-Excel
-SQL
-Power BI
-Data Understanding and Observations:
-Before starting this project, I took some time to understand the data and the key questions I needed to answer. Here are my observations:
-
-Data Cleaning:
-I started by using Excel to clean the data. The first task was to remove duplicates, using all columns as criteria to ensure the data was accurate and consistent.
-
+## Data Analysis
 Calculating Total Sales:
 After cleaning the data, I proceeded to calculate the total sales for each transaction by multiplying the quantity by the unit price. This step provided a more comprehensive view of total revenue.
 
@@ -84,45 +33,14 @@ Next, I created a Pivot Table in Excel to analyze the sales performance. This al
 Category
 Product
 Region
-Month (I grouped the dates into monthly intervals for better analysis)
+Month 
 The Pivot Table was essential for uncovering trends and gaining insights into sales patterns across different dimensions.
 
 image
 
-A. Total Sales by Product Report
-This report provides a summary of total sales for each product. It allows us to identify which products are performing well and where to invest more capital based on sales performance. If a product is selling quickly, consider increasing inventory or boosting marketing efforts for that item.
-
-B. Total Sales by Region Report
-This report summarizes total sales across different regions. It helps us understand which areas are driving sales and where there may be opportunities for growth. By analyzing regional performance, we can make informed decisions about resource allocation, marketing strategies, and expansion efforts.
-
-C. Total Sales by Month Report
-This report provides a summary of total sales broken down by month. It enables us to track sales trends over time, identify seasonal patterns, and evaluate the effectiveness of marketing initiatives. By understanding monthly sales performance, we can make data-driven decisions for future strategies and budget allocations. This report shows the same as the E (top selling region report)
-
-D. Average Sales and Quantity by Product Report
-This report presents the average sales and average quantity sold for each product. It allows us to assess overall product performance and understand customer demand. By analyzing average sales and average quantity, we can identify which products are consistently popular and determine where to focus inventory and marketing efforts.
-
-4. I futher analyse the data using Excel formula formulas to calculate the metrics
-Using the formula to calculate average sales yields the same result as the pivot table analysis. This demonstrates an alternative method for calculating averages.
-
-Formula Used
-=AVERAGEIF(SalesData!C2:C10426, "jacket", SalesData!H2:H10426)
-
-In this formula, "jacket" is the specific product for which the average sales are calculated from the sales data.
-
-image
-
-I also used a formula to calculate the total sales for each region.
-
-Formula Used
-=SUMIF(SalesData!D2:D10426, "RegionName", SalesData!H2:H10426)
-
-In this formula, "RegionName" is replaced with the specific name of the region we want to analyze. This will sum all sales in the specified region from the sales data.
-
-image
-
-SQL Analysis on Sales Data
+## SQL Analysis on Sales Data
 Overview
-This queries provides an analysis of sales data using SQL, Each query addresses a specific aspect of the sales performance.
+This provides an analysis of sales data using SQL. Each query addresses a specific aspect of the sales performance.
 
 Total sales for each product category
 SELECT product, SUM(Total_sale) AS Total_sale
