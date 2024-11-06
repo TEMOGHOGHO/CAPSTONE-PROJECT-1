@@ -4,7 +4,10 @@ PROJECT OVERVIEW: This data analysis project aims to generate insights into the 
 
 DATA SOURCES: The primary source of data is LITA Capstone dataset.xlsx.
 
-INSTALLATIONS
+TOOLS: 
+- Microsoft Excel for data cleaning and analysis
+- Structured Query Language (SQL) for querying of data
+- Power BI for Visualization
 
 USAGE
 
