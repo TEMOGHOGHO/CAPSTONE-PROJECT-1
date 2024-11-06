@@ -5,7 +5,7 @@
 
 ## DATA SOURCE: The primary source of data is LITA Capstone dataset.xlsx.
 
-## TOOLS: 
+## TOOLS:
 - Microsoft Excel for data cleaning and analysis [download here]()
 - Structured Query Language (SQL) for querying of data
 - Power BI for Visualization
