@@ -10,7 +10,13 @@ TOOLS:
 - Power BI for Visualization
 - GitHub for Portfolio building
 
-USAGE
+DATA CLEANING AND PREPARATION
+At the initial stage of data cleaning and preparation, we performed the following actions;
+1. Data loading and inspection
+2. Handling missing variables
+3. Removing duplicates
+4. Data cleaning and formatting
+
 
 PROJECT STRUCTURE
 
