@@ -17,6 +17,12 @@ At the initial stage of data cleaning and preparation, we performed the followin
 3. Removing duplicates
 4. Data cleaning and formatting
 
+Exploratory Data Analysis
+Some questions were answered on the data as follows;
+-  What is the sales overview?
+-  What are the Top-performing products?
+- What is the regional breakdown?
+
 
 PROJECT STRUCTURE
 
