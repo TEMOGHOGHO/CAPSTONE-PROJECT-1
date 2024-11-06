@@ -1,23 +1,23 @@
-##SALES PERFORMANCE ANALYSIS OF TEMMYTEE RETAIL STORE
+## SALES PERFORMANCE ANALYSIS OF TEMMYTEE RETAIL STORE
 
-PROJECT OVERVIEW: This data analysis project aims to generate insights into the Sales Performance of TemmyTee Retail Store over the past year. By analysing the various parameters in the data received, we seek to explore Sales data to uncover key insights such as Top-selling products, Regional performance and Monthly sales trend. The goal is to tell a compelling story by building an interactive dashboard report to gather insight and make business decisions.
+## PROJECT OVERVIEW: This data analysis project aims to generate insights into the Sales Performance of TemmyTee Retail Store over the past year. By analysing the various parameters in the data received, we seek to explore Sales data to uncover key insights such as Top-selling products, Regional performance and Monthly sales trend. The goal is to tell a compelling story by building an interactive dashboard report to gather insight and make business decisions.
 
-DATA SOURCES: The primary source of data is LITA Capstone dataset.xlsx.
+## DATA SOURCE: The primary source of data is LITA Capstone dataset.xlsx.
 
-TOOLS: 
+## TOOLS: 
 - Microsoft Excel for data cleaning and analysis [download here]()
 - Structured Query Language (SQL) for querying of data
 - Power BI for Visualization
 - GitHub for Portfolio building
 
-DATA CLEANING AND PREPARATION
-At the initial stage of data cleaning and preparation, we performed the following actions;
+## DATA CLEANING AND PREPARATION
+At the initial stage of data cleaning and preparation, the following actions were performed;
 1. Data loading and inspection
 2. Handling missing variables
 3. Removing duplicates
 4. Data cleaning and formatting
 
-Exploratory Data Analysis
+## Exploratory Data Analysis
 Some questions were answered on the data as follows;
 -  What is the sales overview?
 -  What are the Top-performing products?
