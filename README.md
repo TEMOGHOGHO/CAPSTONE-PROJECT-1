@@ -29,7 +29,7 @@ Calculating Total Sales:
 After cleaning the data, I proceeded to calculate the total sales for each transaction by multiplying the quantity by the unit price. This step provided a more comprehensive view of total revenue.
 
 Sales Analysis with Pivot Table:
-Next, I created a Pivot Table in Excel to analyze the sales performance. This allowed me to group sales data by:
+Next, I created a Pivot Table in Excel to analyze the sales performance.This allowed me to group sales data by:
 
 Category
 Product
@@ -37,7 +37,7 @@ Region
 Month 
 The Pivot Table was essential for uncovering trends and gaining insights into sales patterns across different dimensions.
 
-image
+
 
 ## SQL Analysis on Sales Data
 Overview
