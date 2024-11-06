@@ -40,51 +40,59 @@ image
 
 ## SQL Analysis on Sales Data
 Overview
+
 This provides an analysis of sales data using SQL. Each query addresses a specific aspect of the sales performance.
 
-Total sales for each product category
+# Total sales for each product category
 SELECT product, SUM(Total_sale) AS Total_sale
 FROM SalesData
 GROUP BY product;
-Number of sales transactions in each region
+
+# Number of sales transactions in each region
 SELECT region, COUNT(*) AS transaction_count
 FROM SalesData
 GROUP BY region;
-Highest-selling product by total sales value
+
+# Highest-selling product by total sales value
 SELECT TOP 1 product, SUM(Total_sale) AS total_sales
 FROM SalesData
 GROUP BY product
 ORDER BY total_sales DESC;
-Total revenue per product
+
+# Total revenue per product
 SELECT product, SUM(Total_sale) AS total_revenue
 FROM SalesData
 GROUP BY product;
-Monthly sales totals for the current year
+
+# Monthly sales totals for the current year
 SELECT MONTH(Orderdate) AS month,
 SUM(Total_sale) AS total_sales
 FROM SalesData
 WHERE YEAR(Orderdate) = 2024
 GROUP BY MONTH(Orderdate)
 ORDER BY MONTH(Orderdate);
-Top 5 customers by total purchase amount
+
+# Top 5 customers by total purchase amount
 SELECT TOP 5 customer_id, SUM(Total_sale) AS total_purchase
 FROM SalesData
 GROUP BY customer_id
 ORDER BY total_purchase DESC;
-Percentage of total sales contributed by each region
+
+# Percentage of total sales contributed by each region
 SELECT region,
 SUM(Total_sale) AS total_sales,
 (SUM(Total_sale) / (SELECT SUM(Total_sale) FROM SalesData) * 100) AS percentage_of_total_sales
 FROM SalesData
 GROUP BY region;
-Products with no sales in the last quarter
+
+# Products with no sales in the last quarter
 SELECT product 
 FROM SalesData
 GROUP BY product
 HAVING SUM(CASE WHEN Orderdate BETWEEN '2024-06-01' AND '2024-08-31' THEN 1 ELSE 0 END) = 0;
--- ========================== -- End of SQL Analysis -- ==========================
+========================== End of SQL Analysis==========================
 
-Visualising Sales Data with Power BI
+## VISUALISING SALES DATA WITH POWER BI
 Power BI Data Preparation
 Imported the dataset into Power BI.
 Corrected the data types for accuracy.
