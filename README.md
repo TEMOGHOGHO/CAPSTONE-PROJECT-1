@@ -8,6 +8,7 @@ TOOLS:
 - Microsoft Excel for data cleaning and analysis
 - Structured Query Language (SQL) for querying of data
 - Power BI for Visualization
+- GitHub for Portfolio building
 
 USAGE
 
